@@ -1,0 +1,53 @@
+.pgContain {
+  width: 60%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Container {
+  background-color: #170774;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+.Container h2 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.formContain {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #fff;
+}
+
+.formContain > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formInput {
+  width: 100%;
+  background-color: #fff;
+  padding: 18px 20px;
+  border: 0px;
+  outline: none;
+  border-radius: 10px;
+  font-family: unset;
+}
+
+.Btnform {
+  background-color: #fff;
+  padding: 15px 30px;
+  border: 0px;
+  border-radius: 10px;
+  width: 30%;
+  font-family: unset;
+  cursor: pointer;
+}
