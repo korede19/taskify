@@ -6,8 +6,7 @@ import styles from "./styles.module.css";
 import Mail from "@/svg/mail";
 import Lock from "@/svg/lock";
 import Show from "@/svg/show";
-import Google from "@/svg/google";
-import Facebook from "@/svg/facebook";
+import GoogleSignInButton from "../googleSignIn";
 
 const SignupForm = () => {
   const [email, setEmail] = useState("");
@@ -122,14 +121,7 @@ const SignupForm = () => {
         </button>
       </form>
       <p className={styles.otherText}>OR</p>
-      <div className={styles.btnContain}>
-        <button onClick={() => signIn("google")}>
-          <Google /> Google
-        </button>
-        <button onClick={() => signIn("facebook")}>
-          <Facebook /> Facebook
-        </button>
-      </div>
+      <GoogleSignInButton />
       <p className={styles.signUp}>
         Already have an account?{" "}
         <span onClick={() => router.push("/login")}>Sign In</span>
