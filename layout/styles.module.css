@@ -1,0 +1,13 @@
+.pgContain {
+  display: flex;
+}
+
+.colOne {
+  width: 20%;
+  height: 100vh;
+}
+
+.colTwo {
+  width: 80%;
+  background-color: rgb(242, 242, 255);
+}

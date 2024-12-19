@@ -1,0 +1,37 @@
+.container {
+  width: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  padding: 50px 0px;
+}
+
+.container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  padding: 0px 30px;
+  color: #170774;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.Menus {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Menus a {
+  display: flex;
+  gap: 30px;
+  color: unset;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #efefef;
+  border-right: 5px solid #170774;
+}
